@@ -4,33 +4,44 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Теория цвета - Как цвет влияет на поведение потребителей</title>
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <header>
-            <div>
-                <div>
-                    <a href="#">B</a>
-                </div>
-                <div>
-                    <a href="#">Мой блог</a>
-                </div>
+        <header class="body__header">
+            <!-- <div class="div__logo_blog"> -->
+            <div class="logo">
+                <a href="#">B</a>
             </div>
+            <div class="blog">
+                <a href="#">Мой блог</a>
+            </div>
+            <!-- </div> -->
             <nav>
                 <ul>
-                    <li><a href="#">HTML и CSS</a></li>
-                    <li><a href="#">Frontend</a></li>
-                    <li><a href="#">Backend</a></li>
+                    <li class="li__html_css"><a href="#">HTML и CSS</a></li>
+                    <li class="li__frontend"><a href="#">Frontend</a></li>
+                    <li class="li__backend"><a href="#">Backend</a></li>
                 </ul>
             </nav>
+            <!-- <div class="form"> -->
             <form action="#">
-                <img src="./images/search.png" alt="Поиск" />
-                <input type="text" placeholder="Поиск" />
+                <div class="search">
+                    <img src="./images/search.png" alt="Поиск" />
+                    <input type="text" placeholder="Поиск" />
+                </div>
             </form>
+            <!-- </div> -->
         </header>
         <main>
             <article>
                 <header>
-                    <div>
+                    <div class="what_when">
                         <div>FRONTEND</div>
                         <div>
                             <img src="./images/circle.png" alt="Разделитель" />
@@ -42,13 +53,13 @@
                     <h1>
                         Теория цвета - Как цвет влияет на поведение потребителей
                     </h1>
-                    <div>
+                    <div class="author">
                         <img src="./images/author.png" alt="Аватар автора" />
-                        <div>Наталья Васильева</div>
-                        <div>Разработчик</div>
+                        <div class="author_name">Наталья Васильева</div>
+                        <div class="author_role">Разработчик</div>
                     </div>
                 </header>
-                <section>
+                <section class="section_main">
                     <img src="./images/product.jpeg" alt="Изображение товара" />
                     <p>
                         Теория цвета — это особенности эмоционального восприятия
@@ -62,7 +73,7 @@
                         совершению целевых действий, повысить конверсию.
                     </p>
                 </section>
-                <section>
+                <section class="section_extra">
                     <p>
                         Универсального ответа на вопрос, как тот или иной цвет
                         влияет на разных людей, нет. Эмоциональная и
