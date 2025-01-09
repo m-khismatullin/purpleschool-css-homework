@@ -15,8 +15,13 @@ body {
     border: none;
 }
 
+div.container {
+    margin: 0 auto;
+    width: max-content;
+}
+
 .body__header {
-    margin: 70px 180px;
+    padding: 70px 0;
 }
 
 .body__header * {
@@ -49,6 +54,7 @@ nav ul {
     font-size: 16px;
     line-height: 19px;
     padding-left: 0;
+    margin-right: 320px;
 }
 
 .li__html_css {
@@ -60,7 +66,6 @@ nav ul {
 }
 
 .li__backend {
-    margin-right: 320px; /*должно быть 346 но при таком значении search переносится почему-то */
 }
 
 .search {
@@ -104,7 +109,7 @@ nav ul {
 
 h1 {
     width: 525px;
-    height: 76px;
+    /* height: 76px; */
     text-align: center;
     font-size: 24px;
     font-weight: 400;
